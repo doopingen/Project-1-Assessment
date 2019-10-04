@@ -1,0 +1,54 @@
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.counter { 
+    grid-area: 1 / 1 / 2 / 2; 
+}
+
+.output {
+    padding:15px;
+    text-align:center;
+    font-size: 5vh
+}
+
+.input {
+    display: inline-block;
+}
+
+.numinput {
+    text-align:center;
+    font-size:2vh;
+}
+
+.button {
+    background-color: #9C9F9C; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.button:hover {
+    color:#9c9f9c;
+    background-color: #ffffff;
+}
+
+.negativenum {
+    color:red;
+}
